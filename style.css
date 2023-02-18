@@ -1,0 +1,55 @@
+html,
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  height: fit-content;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.search {
+  font-size: 35px;
+  color: #19686a;
+}
+
+#id {
+  width: 350px;
+  height: 30px;
+  padding: 10px;
+  background-color: #002021;
+  color: #a8eff0;
+  border-radius: 20px;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 0px 20px;
+  height: 50px;
+  background-color: #002021;
+  color: #e7edde;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+div {
+  color: #0f6292;
+}
+
+#students {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  flex-direction: column;
+  font-size: 20px;
+}
